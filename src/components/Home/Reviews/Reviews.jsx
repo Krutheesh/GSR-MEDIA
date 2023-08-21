@@ -12,13 +12,13 @@ const Reviews = () => {
         <div class="card w-full text-white shadow-xl bg-black">
           <div class="card-body">
             <p className="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex facilis itaque earum neque. Repellendus, incidunt.</p>
-            <div class="card-actions justify-between mt-5 items-center">
+            <div class="card-actions justify-center md:justify-between mt-5 items-center">
               <img
                 className="rounded-full w-28 ring ring-secondary ring-offset-base-100 ring-offset-2"
                 src={person}
                 alt=""
               />
-              <div>
+              <div className="text-ce">
                 <h2 class="card-title text-red-600">Nash Patrik</h2>
                 <p>CEO, Manpol</p>
               </div>
@@ -28,7 +28,7 @@ const Reviews = () => {
         <div class="card w-full bg-black shadow-xl">
           <div class="card-body">
             <p className="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex facilis itaque earum neque. Repellendus, incidunt.</p>
-            <div class="card-actions justify-between mt-5 items-center">
+            <div class="card-actions justify-center md:justify-between mt-5 items-center">
               <img
                 className="rounded-full w-28 ring ring-secondary ring-offset-base-100 ring-offset-2"
                 src={person1}
@@ -44,7 +44,7 @@ const Reviews = () => {
         <div class="card w-full bg-black shadow-xl">
           <div class="card-body">
             <p className="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex facilis itaque earum neque. Repellendus, incidunt.</p>
-            <div class="card-actions justify-between mt-5 items-center">
+            <div class="card-actions justify-center md:justify-between mt-5 items-center">
               <img
                 className="rounded-full w-28 ring ring-secondary ring-offset-base-100 ring-offset-2"
                 src={person2}
